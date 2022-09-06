@@ -1,3 +1,3 @@
-# Fall_Class_2022
+# 2022 Fall Software Class
 
-Welcome to the WildStang Fall Software Class for 2022. If you have any questions, task to Stuart @smccrorie, or Liam @fruzyna.
+Welcome to the WildStang Fall Software Class for 2022. If you have any questions, talk to Stuart @smccrorie, or Liam @fruzyna.
