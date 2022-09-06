@@ -6,3 +6,4 @@
 | Stuart McCrorie      | smccrorie            | mentor | 2014            |
 | Alex Martinez        | Blublub001           | 112    | 2022            |
 | Billy Doherty        | wdoherty             | mentor | 2016            |
+| Tejasvi Prattipati   | EliteFox123          | 112    | 2025            |
