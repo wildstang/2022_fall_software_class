@@ -5,6 +5,7 @@
 | Liam Fruzyna         | fruzyna              | mentor | 2015            |
 | Stuart McCrorie      | smccrorie            | mentor | 2014            |
 | Alex Martinez        | Blublub001           | 112    | 2022            |
+| Arms Mathew          | ARMS300              | 112    | 2025            |
 | Billy Doherty        | wdoherty             | mentor | 2016            |
 | Tejasvi Prattipati   | EliteFox123          | 112    | 2025            |
 | Eric Wetzel          | Ewetzel5400          | 112    | 2025
