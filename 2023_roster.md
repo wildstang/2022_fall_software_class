@@ -10,3 +10,4 @@
 | Billy Doherty        | wdoherty             | mentor | 2016            |
 | Tejasvi Prattipati   | EliteFox123          | 112    | 2025            |
 | Eric Wetzel          | Ewetzel5400          | 112    | 2025
+| Remy/Reggie Regal    | Sn4keProgr4ms        | 112    | 2026
