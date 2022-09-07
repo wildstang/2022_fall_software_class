@@ -56,7 +56,7 @@ h == ___;
 int i = 5;
 int j = ++i;
 i == ___;
-j =k ___;
+j == ___;
 int k = 5;
 int l = (k++) + 3;
 int m = 2 * k + (++l);
