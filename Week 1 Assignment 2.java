@@ -55,27 +55,27 @@ g == 5;
 h == ;
 int i = 5;
 int j = ++i;
-i == ___;
-j =k ___;
+i == 5;
+j = 6;
 int k = 5;
 int l = (k++) + 3;
 int m = 2 * k + (++l);
 l = 2 * (--m) - (k++);
-k == ___;
-l == ___;
-m == ___;
+k == 5;
+l == 9;
+m == 21;
 
 // Section 3 - Boolean Logic
 
 boolean x = 5>4;
-x == ___;
+x == true;
 boolean y = 3 < 4 && 5 >= 6;
-y == ___;
+y == false;
 boolean z = 5 == 10 / 2 || 7 == 7 * 2;
-z == ___;
+z == true;
 boolean u = !(true || false) && !(!true || !false);
-u == ___;
+u == false;
 boolean m = ((true && (!false && true)) || !(false && true)) && true;
-m == ___;
+m == true;
 boolean n = (true && (!true ^ true)) ^ !(false || (!true));
-n == ___;
+n == true;
