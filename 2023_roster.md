@@ -14,3 +14,4 @@
 | Audrey Greazel       | GreazelA             | 112    | 2026            |
 | Michael Bauer        | MichaelBauer6        | 112    | 2025            |
 | Matthew Saari        | H2o-is-hijklmno      | 112    | 2025            |
+| Yashwant Cherukuri   | YashwantCherukuri    | 112    | 2025            |
