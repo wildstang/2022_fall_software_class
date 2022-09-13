@@ -8,7 +8,13 @@
 int input = 8; // this could be any whole positive interger number
 int answer;
 //your code goes below
-
+answer = 1;
+  // 8! = 8*7*6*5...
+  
+for(input; input > 0; input--)
+{
+ answer = answer * input;
+}
 
 
 
@@ -36,10 +42,10 @@ int answer;
 int nth = 21; // this could be any whole positive interger number
 int answer;
 // your code goes below
+answer = 3
 
-
-
-
+for(
+if(input; = answer
 
 
 ///////////////////////////////////////
