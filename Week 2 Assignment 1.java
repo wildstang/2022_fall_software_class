@@ -6,13 +6,14 @@
 // Activity 1 - assign the variable "answer" to the factorial of the input variable "input"
 
 int input = 8; // this could be any whole positive interger number
-int answer;
+int answer = 1; 
 //your code goes below
 
+for (i=input; i>0; i--;) {
 
+answer = i * answer
 
-
-
+  }
 
 ///////////////////////////////////////
 // Activity 2 - assign the variable "answer" to the modulus of the input variable "total" and input variable "divisor"
@@ -20,13 +21,16 @@ int answer;
 
 int total = 36; // this could be any whole positive interger number
 int divisor = 13; // this could be any whole positive interger number
-int answer;
+int answer = 1;
 // your code goes below
 
+while (total >= divisor) {
+  
+  total-= divisor;
+ 
+}
 
-
-
-
+answer=total;
 
 ///////////////////////////////////////
 // Activity 3 - assign the variable "answer" to the "nth" term of the fibonacci sequence, where "nth" is an input variable
@@ -34,10 +38,21 @@ int answer;
 // so if the input "nth" is 3, the answer is 2. If "nth" is 4, the answer is 3. If "nth" is 5, the answer is 5. If "nth" is 6, answer is 8 etc.
 
 int nth = 21; // this could be any whole positive interger number
-int answer;
+int answer = 1;
 // your code goes below
 
+while (nth>0) {
 
+nth+=1
+  
+}
+
+nth= answer
+
+
+
+
+ 
 
 
 
@@ -50,6 +65,27 @@ int answer;
 int length = 50; // this could be any whole positive interger number
 // your code goes below
 
+for (i=1; i<length; i++) { 
+ 
+ if (i%3 !=0 && i%5=0) {
+ 
+ System.out.printIn("fizz"); 
+  
+ }
+ 
+ else if (i%5!=0 && i%3=0) {
+
+System.out.printIn("buzz");
+
+}
+
+else if (i%5=0 && i%3=0) {
+
+System.out.printIn("fizzbuzz");
+
+
+}
+ 
 
 
 
