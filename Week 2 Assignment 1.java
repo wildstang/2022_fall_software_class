@@ -40,26 +40,21 @@ answer=total;
 int nth = 21; // this could be any whole positive interger number
 int answer = 1;
 // your code goes below
+p1 = 0;
+p2 = 1;
 
-while (nth>0) {
+for (int i=1, i<= nth, i++) {
 
-nth+=1
-  
+  answer = p1 + p2;
+  p1 = p2;
+  p2 = answer;
+
 }
-
-nth= answer
-
-
-
-
- 
-
-
 
 
 ///////////////////////////////////////
 // Activity 4 - Fizzbuzz. Use System.out.println() to print what the answer is for every value from 1 until length
-// Every time a number is divisible by 3, the String should be "fizz." If it is divisible by 5, it should be "buzz."
+// Every time a number is divisible by 3, the String should be "fizz." If it +is divisible by 5, it should be "buzz."
 // If a number is divisible by both 3 and 5, it is "fizzbuzz." Otherwise, the String should be the number.
 
 int length = 50; // this could be any whole positive interger number
