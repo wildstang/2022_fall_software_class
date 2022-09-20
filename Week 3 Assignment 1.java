@@ -25,8 +25,11 @@ String[] answers = new String[length];
 //code for your object goes below
 public class Widget {
 	
+	public(int 
+	string(
 	
-	
+	If(8\3)
+		then(
 	
 	
 	
