@@ -17,17 +17,55 @@ int[] numbers = new int[]{3,5,7,9}; // this could be any length of positive inte
 String[] phrases = new String[]{"Fizz", "Buzz", "Mozz", "Wazz"}; // this could have any number of phrases
 String[] answers = new String[length];
 
+widget Fizz = new widget(3, "Fizz");
+widget Buzz = new widget(5, "Buzz");
+Widget Mozz = new Widget(7, "Mozz");
+Widget Wazz = new Widget(9, "Wazz");
 
-
-
+for (int i=1; i<= lenth; i++)(
+if (Fizz.idDivisible(i))(
+holder += Buzz.getResponse();
+	answers(i) = --;
 
 
 //code for your object goes below
 public class Widget {
+	public int divisor
+	public string response
+	
+	public
+	
+widget(int myDivisor, string myresponse)(
+divisor = mydivisor:
+response= myresponse;
+)
+public string getresponse;()(return response;
+ )public void set dividor(int new dividor;
+)
+public void setresponse(string new response)(
+response = new response;
+	
+public boolean isdivizible(int input)(
 	
 	
 	
 	
 	
 	
+	
+	
+	
+	public(int 
+string(
+	
+	
+	
+
+	
+	If(8\3)
+		then(fizz)
+		if
+	
+	
+	never gonna give you up, never gonna let you down, never gonna run around and hurt you.
 }
