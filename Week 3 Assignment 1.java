@@ -16,7 +16,7 @@ int length = 80; // this could be any number
 int[] numbers = new int[]{3,5,7,9}; // this could be any length of positive interger numbers
 String[] phrases = new String[]{"Fizz", "Buzz", "Mozz", "Wazz"}; // this could have any number of phrases
 String[] answers = new String[length];
-
+int widgetCount = 4
 
 
 
@@ -24,10 +24,48 @@ String[] answers = new String[length];
 
 //code for your object goes below
 public class Widget {
+	private int divisor;
+	private String response;
 	
+	public Widget(int myDivisor, String myResponse) {
+		divisor = myDivisor;
+		divisor = myResponse;
+	}
 	
-	
-	
-	
-	
+	public String giveResponse(int num) {
+		if num % divisor == 0 {
+			return response;
+		} else {
+			return "";	
+		}
+	}
 }
+
+// Innitialize empty Widget array
+Widget[] widgets = new Widget[widgetCount];
+
+// Populate Widget Array
+for (int i = 0; i < widgetCount; i++) {
+	widgets[i] = new Widget(numbers[i], answers[i]);
+}
+
+//1 2  3   4  5    6
+//1 2 FIZZ 4 BUZZ FIZZ
+
+for (int num = 1; i <= length; num++) {
+	String response = "";
+		
+	// Add widget responses if the number is divisible by widgets divisor
+	for (int i = 0; i < widgetCount; i++) {
+		response += widgets[i].giveResponse(num);
+	}
+	
+	// No widget added their response
+	if response.count == 0 {
+		response = (String) 9;
+	}
+	
+	// Add response to the answers
+	answers[num - 1] =  response;
+}
+
