@@ -24,14 +24,29 @@ int x = 0;
 
 //code for your object goes below
 public class Widget {
+
+	public int divisor;
+	pubilc String response;
 	
-	public int getFizz() {
-	
-		while x > length:
-			
+	public Widget(int myDivisor, String myResponse){
+		
+		divisor = myDivisor;
+		response = myResponse;
 		
 	}
 	
+	public int getDivisor(){
+		return divisor;
+	}
+	public String getResponse(){
+		return response;	
+	}
+	public void setDivisor(int newDivisor){
+		divisor = newDivisor;
+	}
+	public void setResponse(String newResponse){
+		response = newResponse;
+	}
 	
 	
 	
