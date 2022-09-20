@@ -17,7 +17,7 @@ int[] numbers = new int[]{3,5,7,9}; // this could be any length of positive inte
 String[] phrases = new String[]{"Fizz", "Buzz", "Mozz", "Wazz"}; // this could have any number of phrases
 String[] answers = new String[length];
 
-
+int x = 0;
 
 
 
@@ -25,7 +25,12 @@ String[] answers = new String[length];
 //code for your object goes below
 public class Widget {
 	
+	public int getFizz() {
 	
+		while x > length:
+			
+		
+	}
 	
 	
 	
