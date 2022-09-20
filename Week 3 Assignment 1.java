@@ -24,9 +24,30 @@ String[] answers = new String[length];
 
 //code for your object goes below
 public class Widget {
+	public int divisor
+	public string response
+	
+	public
+	
+widget(int myDivisor, string myresponse)(
+divisor = mydivisor:
+response= myresponse;
+)
+public string getresponse;()(return response;
+ )public void set dividor(int new dividor;
+)
+public void setresponse(string new response)(
+response = new response;
+	
+public(int 
+string(
 	
 	
 	
+	
+	If(8\3)
+		then(fizz)
+		if
 	
 	
 	
