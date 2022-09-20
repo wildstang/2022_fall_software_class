@@ -17,17 +17,64 @@ int[] numbers = new int[]{3,5,7,9}; // this could be any length of positive inte
 String[] phrases = new String[]{"Fizz", "Buzz", "Mozz", "Wazz"}; // this could have any number of phrases
 String[] answers = new String[length];
 
+Widget Fizz = new Widget(3, "Fizz");
+Widget Buzz = new Widget(5, "Buzz");
+Widget Mozz = new Widget(7, "Mozz");
+Widget Wazz = new Widget(9, "Wazz");
 
+//Define Widgets 
 
-
-
+for (int i = 1: i <= length; i++){
+	
+	answers[i] = ______;
+	
+}
 
 //code for your object goes below
 public class Widget {
 	
+	private int divisor;
+	private String phrase;
+	//Fields
+
+	
+	public Widget (int newDivisor, String newPhrase) {
+
+        divisor = newDivisor;
+        phrase = newPhrase;	
+	//Constructor	
+	
+	}
+			
+	public int getDivisor(){
+		return divisor;
+	}
+	
+	public String getPhrase(){
+		return phrase;
+	}
+  
+	public void setDivisor(int newDivisor){
+		divisor = newDivisor;
+	}
+	public void setPhrase(String newPhrase){
+		phrase = newPhrase;
+	}
+	//Input and Output
+	
+	if (=0) {
+		
+		
+		
+		
+
+	
+}
+	//Execution
 	
 	
-	
+}
+
 	
 	
 }
