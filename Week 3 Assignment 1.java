@@ -35,9 +35,15 @@ public class Widget {
 	public int getFizz() {
 		return fizz;
 	}
+		
+	public int getBuzz(){
+		return buzz;
+		
+	}
 	public void setFizz(int newFizz) {
 		fizz = newFizz
-		}
-	
-	
+	}
+	public void setBuzz(String newBuzz){
+		buzz = newBuzz;
+	}
 }
