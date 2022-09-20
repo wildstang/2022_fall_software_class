@@ -24,10 +24,20 @@ String[] answers = new String[length];
 
 //code for your object goes below
 public class Widget {
+	private int fizz;
+	private string buzz
 	
+	public Widget(int newFizz, string newBuzz){
+		fizz = newFizz
+		buzz = newBuzz
+		}
 	
-	
-	
+	public int getFizz() {
+		return fizz;
+	}
+	public void setFizz(int newFizz) {
+		fizz = newFizz
+		}
 	
 	
 }
