@@ -16,6 +16,16 @@ delayStep(); // does nothing for some seconds
 // at (1,7), (3,3), (7,6), and (9,1). There is a goal at (10,10) to score the cargo in. We want
 // to score all 4 cargo, using the 5 steps from above
 
+driveStep(7);
+turnStep(90);
+driveStep(1);
+intakeOnStep();
+driveStep(2);
+turnStep(90);
+driveStep(4);
+intakeOnStep();
+turnStep(225);
+ 
 
 
 
