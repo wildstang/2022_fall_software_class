@@ -20,7 +20,7 @@
 
 // Write the pseudo-code for init(), update(), and inputUpdate() to run this subsystem
 
-public void init() {
+public void init() { //Declare parts of the robot
 	//your code goes below
 	
 	
@@ -30,7 +30,7 @@ public void init() {
 	
 }
 
-public void inputUpdate(Input Source) {
+public void inputUpdate(Input Source) { //Declares all kinds of buttons, etc.
 	//your code goes below
 	
 	
@@ -40,7 +40,7 @@ public void inputUpdate(Input Source) {
 	
 }
 
-public void update() {
+public void update() { //Tells parts what to do based on input
 	//your code goes below
 	
 	
