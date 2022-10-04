@@ -123,7 +123,7 @@ public void inputUpdate(Input source) {
 // deadbandValue = (value - deadband) * max_value / (max_value - deadband)
 
 double deadband = 0.1;
-WsJoystickAxis joystick = (WsJoystickAxis) Core().getInputManager().getInput(WsInputs.DRIVER_LEFT_JOYSTICK_Y);
+WsJoystickAxis joystick = (WsJoystickAxis) Core().getInputManager().getInput(WsInputs.DRIVER_LEFT_JOYSTICK_Y);a66666666k65mUauu
 
 public void inputUpdate(Input Source) {
 	// your code goes here
