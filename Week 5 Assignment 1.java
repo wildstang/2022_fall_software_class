@@ -17,7 +17,16 @@ public void inputUpdate(Input source) {
 	// your code goes here
 	
 	
+	if button.getValue() == true {
 	
+		isButtonOn = true
+		
+	}
+	else {
+	
+	isButtonOn = false
+		
+	}
 	
 	
 	
@@ -35,7 +44,20 @@ WsJoystickButton button = (WsJoystickButton) Core().getInputManager().getInput(W
 public void inputUpdate(Input Source) {
 	// your code goes here
 	
+	if button.getValue() == true {
 	
+		if isButtonOn == false {
+		
+			isButtonOn = true
+			
+		}
+	
+	}
+	else {
+	
+		isButtonOn = false
+	
+	}
 	
 	
 	
@@ -56,14 +78,36 @@ boolean boolean1 = false;
 boolean boolean2 = false;
 boolean boolean3 = false;
 boolean boolean4 = false;
-DigitalInput button1 = //etc;
-DigitalInput button2 = //etc;
-DigitalInput button3 = //etc;
+DigitalInput button1 =  (WsJoystickButton) Core().getInputManager().getInput(WsInputs.DRIVER_FACE_UP);
+DigitalInput button2 =  (WsJoystickButton) Core().getInputManager().getInput(WsInputs.DRIVER_FACE_RIGHT);
+DigitalInput button3 =  (WsJoystickButton) Core().getInputManager().getInput(WsInputs.DRIVER_FACE_DOWN);
 
 public void inputUpdate(Input source) {
 	// your code goes here
 	
+	state1 = button1.getValue();
+	state2 = button2.getValue();
+	state3 = button3.getValue();
 	
+	if state1 == true {
+	
+		boolean1 = true
+	}
+	
+	if state3 == true {
+	
+		boolean3 = true
+	}
+	
+	if state1 == true && state2 == true {
+	
+		boolean2 = true
+	}
+	
+	if state3 == true && state2 == true {
+	
+		boolean4 = true
+	}
 	
 	
 	
