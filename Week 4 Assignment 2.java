@@ -58,5 +58,9 @@ a  pnematic continually  deploys then retracts
 holding the a button deploys the intake and runs theintake wheels at 100%
 holding the right trigger runs the feed wheels at 100%
 holding the left trigger runs the launcher wheels at the launcher speed
-the left button sets the launcher speed to50%
+the left button sets the launcher speed to 50%
+the right button sets the luancher speed to 100%
+pressing ing left and right buttons at the same time sets the luancher spedd to 75%
+	
+never gonna give you up never gonna let you down........
 }
