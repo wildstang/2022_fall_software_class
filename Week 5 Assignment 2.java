@@ -24,8 +24,12 @@
 
 public void init() {
 	//your code goes below
-	
-	
+AButton = (WsJoystickButton) Core.getInputManager().getInput(WsInputs.DRIVER_FACE_UP);
+AButton.addInputListener(this);
+RightTrigger = (WsJoystickAxis) Core.getInputManager().getInput(WsInputs.DRIVER_FACE_UP);
+RightTrigger.addInputListener(this);
+LeftTrigger = (WsJoystickAxis) Core.getInputManager().getInput(WsInputs.DRIVER_FACE_UP);
+LeftTrigger.addInputListener(this);
 	
 	
 	
