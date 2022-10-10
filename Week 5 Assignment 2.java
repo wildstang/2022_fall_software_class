@@ -23,18 +23,27 @@
 // Write the code for init(), update(), and inputUpdate() to run this subsystem
 
 public void init() {
-	//your code goes below
 	
+	intakeMotor = (WsSparkMax) Core.getOutputManager().getOutput(WSOutputs.INTAKE_MOTOR);
+	feedMotor = (WsSparkMax) Core.getOutputManager().getOutput(WSOutputs.FEED_MOTOR);
+	launcherMotor = (WsSparkMax) Core.getOutputManager().getOutput(WSOutputs.LAUNCHER_MOTOR);
 	
-	
-	
-	
-	
+	intakeSolenoid = (WsSolenoid) Core.getOutputManager().getOutput(WSOutputs.INTAKE_SOLENOID);
+			
 }
 
 public void inputUpdate(Input Source) {
-	//your code goes below
+
+	if intakeSolenoid.WsSolenoidState.FORWARD {
 	
+		intakeMotor.setSpeed(1.0);
+	
+	}
+	else if intakeSolenoid.WsSolenoidState.REVERSE {
+	
+		intakeMotor.setSpeed(-1.0);
+	
+	}
 	
 	
 	
