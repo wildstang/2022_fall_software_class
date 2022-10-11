@@ -7,7 +7,7 @@
 
 ///////////////////////////////////////
 // Activity 1
-// create the code for a "hold" button - a button that only does something when the button is held down
+// create the code for a "hold" button - a button that only does something when the button is held down /
 // In this case, boolean isButtonOn should be true if the button is held and false when it isn't
 
 boolean isButtonOn = false;
