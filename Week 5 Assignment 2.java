@@ -23,19 +23,88 @@
 // Write the code for init(), update(), and inputUpdate() to run this subsystem
 
 public void init() {
-	//your code goes below
 	
+	intakeMotor = (WsSparkMax) Core.getOutputManager().getOutput(WSOutputs.INTAKE_MOTOR);
+	feedMotor = (WsSparkMax) Core.getOutputManager().getOutput(WSOutputs.FEED_MOTOR);
+	launcherMotor = (WsSparkMax) Core.getOutputManager().getOutput(WSOutputs.LAUNCHER_MOTOR);
 	
+	intakeSolenoid = (WsSolenoid) Core.getOutputManager().getOutput(WSOutputs.INTAKE_SOLENOID);
 	
-	
-	
-	
+	aButton = (WsJoystickButton) Core.getInputManager().getInput(WsInputs.DRIVER_FACE_DOWN);
+	aButton.addInputListener(this);
+	rightTrigger = (WsJoystickButton) Core.getInputManager().getInput(WsInputs.DRIVER_RIGHT_TRIGGER);
+	rightTrigger.addInputListener(this);
+	leftTrigger = (WsJoystickButton) Core.getInputManager().getInput(WsInputs.DRIVER_LEFT_TRIGGER);
+	leftTrigger.addInputListener(this);
+	leftBumper = (WsJoystickButton) Core.getInputManager().getInput(WsInputs.DRIVER_LEFT_SHOULDER);
+	leftBumper.addInputListener(this);
+	rightBumper = (WsJoystickButton) Core.getInputManager().getInput(WsInputs.DRIVER_RIGHT_SHOULDER);
+	rightBumper.addInputListener(this);
+
+			
 }
 
 public void inputUpdate(Input Source) {
-	//your code goes below
+
+	if intakeSolenoid.WsSolenoidState.FORWARD {
 	
+		intakeMotor.setSpeed(1.0);
 	
+	}
+	else if intakeSolenoid.WsSolenoidState.REVERSE {
+	
+		intakeMotor.setSpeed(-1.0);
+	
+	}
+	
+	stateButton = aButton.getValue();
+	
+	if stateButton == true {
+	
+		intakeMotor.setSpeed(1.0);
+		
+	}
+	
+	stateRightTrigger = rightTrigger.getValue();
+		
+	if stateRightTrigger == true {
+	
+		feedMotor.setSpeed(1.0);
+	
+	}
+	
+	stateLeftTrigger = leftTrigger.getValue();
+	double launcherSpeed;
+	
+	if stateLeftTrigger == true {
+	
+		launcherMotor.setSpeed(launcherSpeed);
+	
+	}
+	
+	stateLeftBumper = leftBumper.getValue();
+		
+	if (source == leftBumper && leftBumper.getValue()) stateLeftBumper = !stateLeftBumper;
+	
+	if stateLeftBumper == true {
+	
+		launcherSpeed = 0.5;
+	}
+	
+	stateRightBumper = rightBumper.getValue();
+	
+	if (source == rightBumper && rightBumper.getValue()) stateRightBumper = !stateRightBumper;
+	
+	if stateRightBumper == true {
+	
+		launcherSpeed = 1.0;
+	
+	}
+	
+	if stateLeftBumper == true && stateRightBumper == true {
+		
+		launcherSpeed = 0.75;
+	}
 	
 	
 	
