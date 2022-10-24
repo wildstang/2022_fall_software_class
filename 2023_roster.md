@@ -15,5 +15,4 @@
 | Michael Bauer        | MichaelBauer6        | 112    | 2025            |
 | Matthew Saari        | H2o-is-hijklmno      | 112    | 2025            |
 | Yashwant Cherukuri   | YashwantCherukuri    | 112    | 2025            |
-| Uuganbayar Undrakh-  | UuganbayarCoding     | 112    | 2026            |
-| -erdene              |                      |        |                 |
+| Uuganbayar Undrakh-Erdene | UuganbayarCoding     | 112    | 2026            |
