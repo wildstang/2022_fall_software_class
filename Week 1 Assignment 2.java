@@ -78,4 +78,4 @@ u == false
 boolean m = ((true && (!false && true)) || !(false && true)) && true;
 m == true;
 boolean n = (true && (!true ^ true)) ^ !(false || (!true));
-n == false;
+n == true;
