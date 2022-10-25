@@ -17,3 +17,4 @@
 | Yashwant Cherukuri   | YashwantCherukuri    | 112    | 2025            |
 | Tej Prattipati       | Tej-Prattipati       | 112    | 2025            |
 | Litzy Zumba          | Litzyz               | 112    | 2026            |
+| Ezra Koerkel         | EzraProgramming      | 112    | 2026            |
