@@ -16,4 +16,8 @@
 | Matthew Saari        | H2o-is-hijklmno      | 112    | 2025            |
 | Yashwant Cherukuri   | YashwantCherukuri    | 112    | 2025            |
 | Tej Prattipati       | Tej-Prattipati       | 112    | 2025            |
+| Litzy Zumba          | Litzyz               | 112    | 2026            |
+| Ezra Koerkel         | EzraProgramming      | 112    | 2026            |
+| Uuganbayar Undrakh-Erdene | UuganbayarCoding     | 112    | 2026            |
+| Archer Brey          | Archerbee            | 112    | 2026            |
 | Keaton Meier         | Keaton-Meier         | 112    | 2025            |
