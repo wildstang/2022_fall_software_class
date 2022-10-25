@@ -9,17 +9,17 @@
 // Section 1 - Interger Math
 
 int a = 2 + 5;
-a == ___;
+a == 7;
 int b = 45 - 90;
-b == ___;
+b == -45;
 int c = 2 * 7;
-c == ___;
+c == 14;
 int d = 34 % 5;
-d == ___;
+d == 4;
 int e = 3 * 0;
-e == ___;
+e == 0;
 int f = 4 * ((3 + 7) / 2);
-f == ___;
+f == 20;
 
 
 // Section 2 - Assignment Math
@@ -28,27 +28,27 @@ int a = 6;
 int b = 4;
 a = a + b;
 b = a - b;
-a == ___;
-b == ___;
+a == 10;
+b == 6;
 int c = 2;
 int d = 3;
 c = 4 + d;
 d = d * 3;
 c = 4 + d;
-c == ___;
-d == ___;
+c == 13;
+d == 9;
 int e = 12;
 int f = 3;
 e = e / f + 1;
 f = 3 + f * 2;
-e == ___;
-f == ___;
+e == 5;
+f == 9;
 int g = 10;
 int h = 2;
 g = g - h / 2 * 6;
 h = (3 + 1) * (4 * 2 - 1) - 4 / 2 + 2;
-g == ___;
-h == ___;
+g == 3;
+h == 28;
 int g = 5;
 int h = g++;
 g == ___;
