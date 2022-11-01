@@ -16,7 +16,23 @@ delayStep(); // does nothing for some seconds
 // at (1,7), (3,3), (7,6), and (9,1). There is a goal at (10,10) to score the cargo in. We want
 // to score all 4 cargo, using the 5 steps from above
 
+///**/
+//turn,drive root 14 feet,intake,turn to 1,7,drive root 17, turn towards goal, shoot root 90, turn to 7,4, drive root 45, intake,
+//turn 9,1, drive root 14, intake, turn to face goal, shoot root 82. 
 
-
-
-
+turnStep(toward(2,3));
+driveStep(3.7);
+intakeOnStep();
+turnStep(toward(1,7));
+driveStep(4.1);
+intakeOnStep();
+turnStep(toward goal);
+shootStep(root 90);
+turnStep(toward(7,4));
+driveStep(root 45);
+intakeOnStep();
+turnStep(9,2);
+driveStep(root 14);
+intakeOnStep();
+turnStep(toward goal);
+shootStep(root 82);
