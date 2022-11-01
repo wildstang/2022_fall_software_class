@@ -6,10 +6,10 @@
 // Create your own autonomous program using the following steps
 
 intakeOnStep();
-shootStep(distance); // distance is the distance it will score from
-stopShootingStep();
-driveStep(distance); // distance that the robot drives in a straight line
-turnStep(degrees); // the number of degrees the robot turns
+shootStep(3,3); // distance is the distance it will score from
+stopShootingStep(1,7);
+driveStep(9,1); // distance that the robot drives in a straight line
+turnStep(45); // the number of degrees the robot turns
 delayStep(); // does nothing for some seconds
 
 // Your robot is starting at (0,0), and can hold a maximum of two cargo. There are cargo
