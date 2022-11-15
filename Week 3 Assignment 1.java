@@ -17,7 +17,19 @@ int[] numbers = new int[]{3,5,7,9}; // this could be any length of positive inte
 String[] phrases = new String[]{"Fizz", "Buzz", "Mozz", "Wazz"}; // this could have any number of phrases
 String[] answers = new String[length];
 
-
+public string fizbuzz (int input)
+{
+if (input % 3 ==0 and input % 5 == 0)
+	{return "fizzbuzz"
+ 	}
+if (input % 3 == 0)
+	{return "fizz";
+	}
+if (input % 5 == 0)
+	{return "buzz";
+	}
+return "";
+}
 
 
 
