@@ -23,8 +23,13 @@ String[] answers = new String[length];
 
 
 //code for your object goes below
-public class Widget {
-	
+public class Widget;
+	public string fizzbuzz(int input) { if (int % 3 ==0);
+					   {return "fizz"};
+		     if (int % 5 ==0);
+					   {return buzz};
+		     return "";
+					  }
 	
 	
 	
