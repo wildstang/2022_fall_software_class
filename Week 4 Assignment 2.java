@@ -23,7 +23,10 @@
 public void init() {
 	//your code goes below
 	
-	
+	run auto
+	After 15 seconds run 
+	{//Tele op init Function}
+		switch code to control based
 	
 	
 	
@@ -33,7 +36,19 @@ public void init() {
 public void inputUpdate(Input Source) {
 	//your code goes below
 	
+	{Set controls: 
+	A = retract/put out intake
+		Right/left trigger sets launch speed 50/100
 	
+		If Button L is pressed...
+		If button R is pressd...
+		If button A is pressed
+		If button X is pressed...
+		
+		//etc.
+		
+	}
+		
 	
 	
 	
@@ -44,7 +59,8 @@ public void update() {
 	//your code goes below
 	
 	
-	
+	Run Intake if y is pressed.
+		Run Launcher if X is presed
 	
 	
 	
